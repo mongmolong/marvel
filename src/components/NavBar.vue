@@ -1,8 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link>
-    <router-link to="/movie">Search</router-link>
-    <router-link to="/marvel">Random</router-link>
+    <router-link to="/search">Search</router-link>
+    <router-link to="/random">Random</router-link>
   </nav>
 </template>
   
