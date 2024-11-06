@@ -1,16 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '.././views/Home.vue'; 
-import Search from '.././views/Search.vue';
-import Random from '.././views/Random.vue';
+import Home from '../views/Home.vue';
+import Search from '../views/Search.vue';
+import Random from '../views/Random.vue';
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/search', component: Search },
-  { path: '/random', component: Random },
+  { path: '/', component: Home }, 
+  { path: '/search', component: Search },  
+  { path: '/random', component: Random },  
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/marvel/'),  
   routes,
 });
 
