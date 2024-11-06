@@ -1,7 +1,7 @@
 <template>
   <div class="home-container">
     <div class="homeImg">
-      <img src="@/assets/captin.jpg" alt="captin" />
+      <img src="/assets/captin.jpg" alt="captin" />
     </div>
 
     <div class="homeLogin">

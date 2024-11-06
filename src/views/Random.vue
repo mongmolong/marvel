@@ -7,7 +7,7 @@
 
     <div v-if="loading" class="modal">
       <div class="modal-content">
-        <img src="@/assets/circle.png" alt="marvel logo" />
+        <img src="/assets/circle.png" alt="marvel logo" />
         <p>Please wait a moment..</p>
       </div>
     </div>
